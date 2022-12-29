@@ -1,0 +1,86 @@
+html, body{
+    margin: 0 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* nav bar */
+.navbar{
+    background-color: grey;
+    text-align: right;
+}
+
+.navbar *{
+    text-decoration: none;
+    margin: 0 10px;
+    color: white;
+    font-size: 30px;
+}
+
+
+/* flash messages */
+
+main p{
+    text-align: center;
+}
+
+.flash_error_msg{
+    color: red;
+    margin: 0;
+}
+
+.flash_success_msg{
+    color: green;
+    margin: 0;
+}
+
+/* body */
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    color: white;
+    background-color: black;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    gap: 5px;
+      
+}
+
+
+
+form *{
+    font-size: 20px;
+    box-sizing: border-box;
+    
+}
+
+
+label{
+    text-align: left;
+}
+
+main button{
+    background-color: rgb(1, 99, 244);
+    color: white;
+    margin: 2px 0;
+}
+
+.btn_delete{
+    background-color: orange;
+}
+
+.btn_back{
+    background-color: black;
+    margin: 10px 0;
+}
